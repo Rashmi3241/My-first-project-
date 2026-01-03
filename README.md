@@ -60,3 +60,37 @@ Making a website using html and CSS
 
 </body>
 </html>
+hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.hero-content .bottom {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-content .bottom:hover {
+  background-color: #ff3333;
+}
