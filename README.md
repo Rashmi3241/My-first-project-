@@ -24,7 +24,7 @@ Making a website using html and CSS
   </section>
 
   <hr style="height:600px">
-
+<footer style="background:lightblue"></footer>
   <section id="gallery">
     <h1>Gallery</h1>
     <p>These are my portfolio images.</p>
@@ -33,7 +33,9 @@ Making a website using html and CSS
   </section>
 
   <hr style="height:600px">
-
+<footer style="background:lightblue">
+<br>
+  </footer>
   <section id="contact">
     <h1>Contact</h1>
     <p>You can contact me by following details.</p>
@@ -41,10 +43,13 @@ Making a website using html and CSS
   </section>
 
   <hr style="height:600px">
-
+<footer style="background:lightblue">
+<br>
+  
+</footer>
   <section id="info">
     <h1>Information</h1>
-    <p><h4>I am a class 9 computer science student learning html and css.Tuis is the first drmo of my project</h4>.</p>
+    <p><h4>I am a class 9 computer science student learning html and css.Tuis is the first demo of my project</h4>.</p>
   </section>
   <hr style="height:300px"
 </body>
@@ -58,42 +63,9 @@ Making a website using html and CSS
 
 </head>
 <body>
-
-<button id="scrollTopBtn" title="Go to top">&#8679;</button> <!-- Arrow symbol -->
+<form>
+<button id="scrollTopBtn" title="Go to top">&#8679;</button> <!-- Arrow symbol --></form>
 
 </body>
 </html>
-hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  z-index: 1;
-}
 
-.hero-content h1 {
-  font-size: 48px;
-  margin-bottom: 15px;
-}
-
-.hero-content p {
-  font-size: 22px;
-  margin-bottom: 25px;
-}
-
-.hero-content .bottom {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #ff4d4d;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.hero-content .bottom:hover {
-  background-color: #ff3333;
-}
