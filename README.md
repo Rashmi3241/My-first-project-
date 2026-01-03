@@ -27,21 +27,24 @@ Making a website using html and CSS
 
   <section id="gallery">
     <h1>Gallery</h1>
-    <p>Gallery content here.</p>
+    <p>These are my portfolio images.</p>
+    <img src="umwelt.natur.jpg" height="120" width="200" alt="Image 1">
+    
   </section>
 
   <hr style="height:600px">
 
   <section id="contact">
     <h1>Contact</h1>
-    <p>Contact content here.</p>
+    <p>You can contact me by following details.</p>
+    <h3 align="center>Email- rashmi.ghimire227@gmail.com</h3>
   </section>
 
   <hr style="height:600px">
 
   <section id="info">
     <h1>Information</h1>
-    <p>Information content here.</p>
+    <p><h4>I am a class 9 computer science student learning html and css.Tuis is the first drmo of my project</h4>.</p>
   </section>
   <hr style="height:300px"
 </body>
